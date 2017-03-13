@@ -20,6 +20,6 @@ For scripts and code blocks, I always include a title and banner comment ... ///
 
 ## Authors
 
-* **Billie Thompson** - [Darkydude](https://github.com/Darkydude)
+* **David Brennan** - [Darkydude](https://github.com/Darkydude)
 * **Niall Connolly** - [Nisll](https://github.com/Nisll)
 * **Jordan Boyle**
