@@ -5,7 +5,9 @@ Fallen Garden (WIP Title) is a 2D Tower-Defence Survival game for the PC, powere
 ### Prerequisites
 
 GameMaker: Studio
+
 Paint.NET
+
 Tiled
 
 ### Running Tests
