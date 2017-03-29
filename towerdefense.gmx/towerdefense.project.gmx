@@ -7,23 +7,44 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\sprite1</sprite>
+    <sprite>sprites\spr_archerTowerLevelOne</sprite>
+    <sprite>sprites\spr_archerTowerLevelTwo</sprite>
+    <sprite>sprites\spr_mageTowerLevelOne</sprite>
+    <sprite>sprites\spr_mageTowerLevelTwo</sprite>
+    <sprite>sprites\spr_treeSummer</sprite>
+    <sprite>sprites\spr_scrap</sprite>
+    <sprite>sprites\spr_sprite</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bckWinter</background>
+    <background>background\bckSummer</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_switch_tiles.gml</script>
     <script>scripts\scr_controller_init.gml</script>
     <script>scripts\scr_set_season.gml</script>
-    <script>scripts\scr_inventory_init.gml</script>
-    <script>scripts\scr_handle_pickup_collision.gml</script>
-    <script>scripts\scr_test_collision.gml</script>
     <script>scripts\scr_create_grid.gml</script>
     <script>scripts\scr_global_variables.gml</script>
     <script>scripts\scr_update_paths.gml</script>
     <script>scripts\scr_movement.gml</script>
+    <scripts name="Inventory">
+      <script>scripts\scr_draw_inventory.gml</script>
+      <script>scripts\scr_handle_pickup_collision.gml</script>
+      <script>scripts\scr_inventory_init.gml</script>
+      <script>scripts\scr_test_collision.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <object>objects\objPlayer</object>
+    <object>objects\obl_archerTowerLevelOne</object>
+    <object>objects\obj_archerTowerLevelTwo</object>
+    <object>objects\obj_mageTowerLevelOne</object>
+    <object>objects\obj_mageTowerLevelTwo</object>
+    <object>objects\obj_health</object>
+    <object>objects\obj_tower</object>
+    <object>objects\obj_scrap</object>
+    <object>objects\obj_controller</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>

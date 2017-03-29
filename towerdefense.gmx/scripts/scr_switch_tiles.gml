@@ -10,17 +10,17 @@ if(global.HasNewSeason)
         background = bckWinter;
         break;
         
-        case Seasons.Spring:
-        background = bckSpring;
+        case Seasons.Summer:
+        background = bckSummer;
         break;
         
-        case Seasons.Summer:
+        /*case Seasons.Summer:
         background = bckSummer;
         break;
         
         case Seasons.Autumn:
         background = bckAutumn;
-        break;
+        break;*/
     }
     
     for(i = 0; i <  array_length_1d(tiles);i++)

@@ -6,6 +6,6 @@ enum Seasons
     Autumn
 }
 
-global.ActiveSeason = Seasons.Spring;
+global.ActiveSeason = Seasons.Winter;
 global.HasNewSeason = true;
 
