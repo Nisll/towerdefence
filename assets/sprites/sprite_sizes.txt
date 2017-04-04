@@ -1,0 +1,6 @@
+Number of images : 30 (Default)
+Images per row : 30 (Default)
+Image Width : 48px
+Image Height : 48px
+Horizontal Separation : 2
+Vertical Separation : 4
