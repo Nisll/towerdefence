@@ -6,6 +6,16 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprites name="Player">
+      <sprite>sprites\spr_playerLeftIdle</sprite>
+      <sprite>sprites\spr_playerLeftRun</sprite>
+      <sprite>sprites\spr_playerRightIdle</sprite>
+      <sprite>sprites\spr_playerRightRun</sprite>
+      <sprite>sprites\spr_playerUpIdle</sprite>
+      <sprite>sprites\spr_playerUpRun</sprite>
+      <sprite>sprites\spr_playerDownIdle</sprite>
+      <sprite>sprites\spr_playerDownRun</sprite>
+    </sprites>
     <sprite>sprites\sprite1</sprite>
     <sprite>sprites\spr_archerTowerLevelOne</sprite>
     <sprite>sprites\spr_archerTowerLevelTwo</sprite>
@@ -16,8 +26,11 @@
     <sprite>sprites\spr_sprite</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\bckWinter</background>
-    <background>background\bckSummer</background>
+    <backgrounds name="Environment">
+      <background>background\bg_ground_init</background>
+      <background>background\bg_ground_complete</background>
+      <background>background\bg_ground_mid</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -47,7 +60,7 @@
     <object>objects\obj_controller</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\td_garden</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
